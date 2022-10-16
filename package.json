@@ -1,10 +1,11 @@
 {
   "name": "@franzzemen/re-commonjs-examples",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Examples on integrating ES module loaded re framework into commonjs",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "start": "node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
