@@ -1,6 +1,6 @@
 {
   "name": "@franzzemen/re-commonjs-examples",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Examples on integrating ES module loaded re framework into commonjs",
   "main": "index.js",
   "type": "commonjs",
