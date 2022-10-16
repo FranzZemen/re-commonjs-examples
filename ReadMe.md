@@ -71,23 +71,26 @@ If you're just rebuilding and running the test(s):
 The main output from the index.js file loading should look similar to:
 
      2022-10-16T20:56:19.348 INFO:
-{
-  message: 'Result',
-  data: {
-    applicationResults: [
-      {
-        applicationRef: 'Default',
-        ruleSetResults: [
+    {
+      message: 'Result',
+      data: {
+        applicationResults: [
           {
-            ruleSetRef: 'Default',
-            ruleSetText: '',
-            ruleResults: [
-              RuleResult {
-                _result: {
-                  ruleRef: 'Rule 2022-10-16T16:56:19:eee80659-a852-42a0-b94a-260244907229',
-                  ruleText: '',
-                  logicalConditionResult: { logicalOperator: 'and', result: true }
-                }
+            applicationRef: 'Default',
+            ruleSetResults: [
+              {
+                ruleSetRef: 'Default',
+                ruleSetText: '',
+                ruleResults: [
+                  RuleResult {
+                    _result: {
+                      ruleRef: 'Rule 2022-10-16T16:56:19:eee80659-a852-42a0-b94a-260244907229',
+                      ruleText: '',
+                      logicalConditionResult: { logicalOperator: 'and', result: true }
+                    }
+                  }
+                ],
+                valid: true
               }
             ],
             valid: true
@@ -95,7 +98,4 @@ The main output from the index.js file loading should look similar to:
         ],
         valid: true
       }
-    ],
-    valid: true
-  }
-}
+    }
